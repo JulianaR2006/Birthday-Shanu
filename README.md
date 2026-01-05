@@ -2,16 +2,19 @@
 
 A playful browser-based crossword that hides a "Happy Birthday Shanu" message behind a short phone-call intro and a burst of confetti when everything is solved.
 
-## How to run
+## How to try the game
 
-You can either double-click `index.html` or run a lightweight preview server:
+### Fastest way (recommended)
+1. Make sure you have Node.js installed (any recent LTS is fine).
+2. From the project folder, install dependencies and start the preview server:
+   ```bash
+   npm install
+   npm start
+   ```
+3. Open <http://localhost:4173> in your browser. Keep the terminal running while you play.
 
-```bash
-npm install
-npm start
-```
-
-The preview server defaults to <http://localhost:4173>.
+### Alternative (no server)
+You can also double-click `index.html` to open it directly in your browser. If you see missing assets or sound, use the server method above instead.
 
 ## How to play
 
