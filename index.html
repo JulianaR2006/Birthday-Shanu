@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Crossword for Shanu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="intro-overlay" class="overlay visible">
+    <div class="overlay-dimmer"></div>
+    <div class="overlay-content">
+      <div class="monkey-wrapper">
+        <img src="assets/monkey-phone.svg" alt="Monkey holding a phone" class="monkey" />
+        <div class="speech-bubble">
+          <p>Juli, what do you mean a scavenger hunt is annoying? Just giving gifts is soooo lame.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="page">
+    <header>
+      <h1>Birthday Crossword Surprise</h1>
+      <p class="subtitle">Fill in the words to uncover the hidden message. Correct words glow green, incorrect entries turn red, and the secret message shines bright yellow.</p>
+    </header>
+
+    <section class="board" id="crossword-board"></section>
+
+    <section class="legend">
+      <h2>Words to find</h2>
+      <ul id="word-list"></ul>
+    </section>
+  </main>
+
+  <div id="celebration" class="celebration hidden">
+    <div class="celebration-dimmer"></div>
+    <div class="celebration-content">
+      <div class="pop-text">
+        <span>H</span><span>a</span><span>p</span><span>p</span><span>y</span>
+        <span>B</span><span>i</span><span>r</span><span>t</span><span>h</span><span>d</span><span>a</span><span>y</span>
+        <span>S</span><span>h</span><span>a</span><span>n</span><span>u</span>
+      </div>
+    </div>
+    <canvas id="confetti"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
