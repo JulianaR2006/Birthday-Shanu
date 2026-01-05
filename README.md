@@ -4,7 +4,14 @@ A playful browser-based crossword that hides a "Happy Birthday Shanu" message be
 
 ## How to run
 
-Open `index.html` in your browser. No build step required.
+You can either double-click `index.html` or run a lightweight preview server:
+
+```bash
+npm install
+npm start
+```
+
+The preview server defaults to <http://localhost:4173>.
 
 ## How to play
 
