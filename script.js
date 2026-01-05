@@ -1,17 +1,18 @@
 const crosswordConfig = {
-  rows: 11,
-  cols: 16,
+  rows: 10,
+  cols: 18,
   words: [
-    { key: 'HAPPY', answer: 'HAPPY', row: 1, col: 3, direction: 'across', hidden: true, prefill: [0, 1, 2, 3, 4] },
-    { key: 'BIRTHDAY', answer: 'BIRTHDAY', row: 3, col: 1, direction: 'across', hidden: true, prefill: [0, 1, 2, 3, 4, 5, 6, 7] },
-    { key: 'SHANU', answer: 'SHANU', row: 7, col: 8, direction: 'across', hidden: true, prefill: [0, 1, 2, 3, 4] },
-    { key: 'PONY', answer: 'PONY', row: 1, col: 11, direction: 'across', clue: 'Small horse' },
+    { key: 'HAPPY', answer: 'HAPPY', row: 2, col: 4, direction: 'across', hidden: true, prefill: [0, 1, 2, 3, 4] },
+    { key: 'BIRTHDAY', answer: 'BIRTHDAY', row: 6, col: 1, direction: 'across', hidden: true, prefill: [0, 1, 2, 3, 4, 5, 6, 7] },
+    { key: 'SHANU', answer: 'SHANU', row: 6, col: 12, direction: 'across', hidden: true, prefill: [0, 1, 2, 3, 4] },
     { key: 'LIME', answer: 'LIME', row: 0, col: 0, direction: 'down', clue: 'Zesty green fruit' },
+    { key: 'PONY', answer: 'PONY', row: 0, col: 10, direction: 'down', clue: 'Small horse' },
     { key: 'HUG', answer: 'HUG', row: 3, col: 6, direction: 'down', clue: 'Squeeze with affection' },
-    { key: 'GIG', answer: 'GIG', row: 0, col: 10, direction: 'down', clue: 'One-night performance' },
+    { key: 'GIG', answer: 'GIG', row: 0, col: 12, direction: 'down', clue: 'One-night performance' },
     { key: 'NEST', answer: 'NEST', row: 5, col: 2, direction: 'across', clue: 'Snug bird home' },
-    { key: 'IMAGE', answer: 'IMAGE', row: 6, col: 0, direction: 'across', clue: 'Picture or likeness' },
+    { key: 'IMAGE', answer: 'IMAGE', row: 8, col: 0, direction: 'across', clue: 'Picture or likeness' },
     { key: 'MAGIC', answer: 'MAGIC', row: 0, col: 9, direction: 'down', clue: 'A kind of sparkle' },
+    { key: 'LEI', answer: 'LEI', row: 0, col: 16, direction: 'down', clue: 'Flower garland' },
   ],
 };
 
